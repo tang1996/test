@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付宝WAP端支付</title>
+</head>
+<body style="font-size: 30px">
+
+<form method="post" action="/alipay/toWapPay">
+    <h3>购买商品：越南榴莲</h3>
+    <h3>价格：124</h3>
+    <h3>数量： <input type="text" name="totalAmount" /></h3>
+    <h3>标题： <input type="text" name="subject" value="支付测试" /></h3>
+    <h3>跳转页面： <input type="text" name="returnUrl" value="http://service.alipay.test/wapPaySuccess" /></h3>
+    <h3>用户id： <input type="text" name="userId" value="96" /></h3>
+
+    <button style="width: 100%; height: 60px; alignment: center; background: blue" type="submit">支付</button>
+</form>
+
+</body>
+</html>
